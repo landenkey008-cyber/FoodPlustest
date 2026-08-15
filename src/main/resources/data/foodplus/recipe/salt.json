@@ -1,0 +1,19 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    "#",
+    "u"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "u": {
+      "item": "foodplus:filter"
+    }
+  },
+  "result": {
+    "id": "foodplus:salt",
+    "count": 3
+  }
+}

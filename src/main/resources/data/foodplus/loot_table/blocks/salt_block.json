@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "foodplus:salt_block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "foodplus:salt_block"
+        }
+      ],
+      "bonus_rolls": 0
+    }
+  ]
+}

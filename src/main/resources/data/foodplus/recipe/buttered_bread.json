@@ -1,0 +1,18 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    "#",
+    "u"
+  ],
+  "key": {
+    "#": {
+      "item": "foodplus:butter"
+    },
+    "u": {
+      "item": "foodplus:bread_slice"
+    }
+  },
+  "result": {
+    "id": "foodplus:buttered_bread"
+  }
+}

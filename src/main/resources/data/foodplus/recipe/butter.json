@@ -1,0 +1,19 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    " # ",
+    "#u#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "u": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "foodplus:butter"
+  }
+}

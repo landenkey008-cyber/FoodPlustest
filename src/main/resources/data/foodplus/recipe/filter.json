@@ -1,0 +1,22 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    " W ",
+    "#C#",
+    " # "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "id": "foodplus:filter"
+  }
+}

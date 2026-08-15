@@ -1,12 +1,21 @@
 {
   "block.foodplus.countertop": "Countertop",
+  "block.foodplus.countertop_panel": "Countertop",
+  "block.foodplus.salt_block": "Salt Block",
 
 
   "item.foodplus.knife": "Knife",
   "item.foodplus.bread_slice": "Sliced Bread",
   "item.foodplus.toast": "Toast",
   "item.foodplus.buttered_bread": "Buttered Bread",
+  "item.foodplus.butter": "Butter",
+  "item.foodplus.filter": "Filter",
+  "item.foodplus.salt": "Salt",
+  "item.foodplus.flour": "Flour",
+
   "container.foodplus.countertop": "Countertop",
+  "creativetab.foodplus.food_plus_tab": "Food ++",
+
 
 
   "foodplus.food_plus_tab": "Food ++",

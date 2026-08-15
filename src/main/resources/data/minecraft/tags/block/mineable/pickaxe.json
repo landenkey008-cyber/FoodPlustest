@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "foodplus:countertop"
+    "foodplus:countertop",
+    "foodplus:countertop_panel"
   ]
 }

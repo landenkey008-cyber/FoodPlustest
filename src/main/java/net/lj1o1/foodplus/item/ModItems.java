@@ -24,6 +24,13 @@ public class ModItems {
 
     //Food Items
 
+    //Ingredients
+    public static final DeferredItem<Item> SALT = ITEMS.register("salt",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FLOUR = ITEMS.register("flour",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FILTER = ITEMS.register("filter",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BUTTER = ITEMS.register("butter",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0.2f).build())));
+
+
     // Breads
     public static final DeferredItem<Item> BREAD_SLICE = ITEMS.register("bread_slice", () -> new Item((new Item.Properties().food(new FoodProperties.Builder().nutrition(1)
             .saturationModifier(0.6f).build()))));

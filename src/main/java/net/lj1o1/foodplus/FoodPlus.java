@@ -79,14 +79,22 @@ public class FoodPlus {
 
     // Creates a creative tab with the id "examplemod:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FOOD_PLUS_TAB = CREATIVE_MODE_TABS.register("food_plus_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.foodplus")) //The language key for the title of your CreativeModeTab
+            .title(Component.translatable("Food++")) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.KNIFE.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(EXAMPLE_ITEM.get());
                 output.accept(ModBlocks.COUNTERTOP.get());
+                output.accept(ModBlocks.COUNTERTOP_PANEL.get());
                 output.accept(ModItems.KNIFE.get());
+                output.accept(ModItems.FLOUR.get());
+                output.accept(ModItems.SALT.get());
+                output.accept(ModItems.FILTER.get());
+                output.accept(ModItems.BUTTER.get());
                 output.accept(ModItems.BREAD_SLICE.get());
+                output.accept(ModItems.TOAST.get());
+                output.accept(ModItems.BUTTERED_BREAD.get());
+                output.accept(ModBlocks.SALT_BLOCK.get());
+
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
