@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "foodplus:bread_slice"
+  },
+  "result": {
+    "id": "foodplus:toast"
+  }
+}

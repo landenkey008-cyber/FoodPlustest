@@ -1,0 +1,18 @@
+{
+  "block.foodplus.countertop": "Countertop",
+
+
+  "item.foodplus.knife": "Knife",
+  "item.foodplus.bread_slice": "Sliced Bread",
+  "item.foodplus.toast": "Toast",
+  "item.foodplus.buttered_bread": "Buttered Bread",
+  "container.foodplus.countertop": "Countertop",
+
+
+  "foodplus.food_plus_tab": "Food ++",
+
+  "examplemod.configuration.items": "Item List",
+  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
+  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "examplemod.configuration.magicNumber": "Magic Number"
+}

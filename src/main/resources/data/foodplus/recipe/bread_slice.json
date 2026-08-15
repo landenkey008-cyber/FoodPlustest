@@ -1,0 +1,15 @@
+{
+  "type": "foodplus:countertop_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "foodplus:knife"
+    }
+  ],
+  "result": {
+    "id": "foodplus:sliced_bread",
+    "count": 3
+  }
+}

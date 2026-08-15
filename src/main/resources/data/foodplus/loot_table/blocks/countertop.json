@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "foodplus:countertop",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "foodplus:countertop"
+        }
+      ],
+      "bonus_rolls": 0
+    }
+  ]
+}
