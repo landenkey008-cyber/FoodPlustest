@@ -1,0 +1,28 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    "SuC",
+    "#c#",
+    "CuS"
+  ],
+  "key": {
+    "S": {
+      "item": "foodplus:salt"
+    },
+    "u": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "#": {
+      "item": "minecraft:potato"
+    },
+    "c": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "id": "foodplus:broth"
+  }
+}

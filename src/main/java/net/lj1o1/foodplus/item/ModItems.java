@@ -29,6 +29,14 @@ public class ModItems {
     public static final DeferredItem<Item> FLOUR = ITEMS.register("flour",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FILTER = ITEMS.register("filter",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BUTTER = ITEMS.register("butter",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0.2f).build())));
+    public static final DeferredItem<Item> BEATEN_EGGS = ITEMS.register("beaten_eggs",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(0.2f).build())));
+    public static final DeferredItem<Item> CHOCOLATE = ITEMS.register("chocolate",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.2f).build())));
+    public static final DeferredItem<Item> GELATIN = ITEMS.register("gelatin",() -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHEESE = ITEMS.register("cheese",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationModifier(0.2f).build())));
+    public static final DeferredItem<Item> COOKIE = ITEMS.register("cookie",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0.2f).build())));
+    public static final DeferredItem<Item> BROTH = ITEMS.register("broth",() -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationModifier(0.6f).build())));
+
+
 
 
     // Breads

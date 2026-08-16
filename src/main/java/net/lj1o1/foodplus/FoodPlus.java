@@ -90,6 +90,12 @@ public class FoodPlus {
                 output.accept(ModItems.SALT.get());
                 output.accept(ModItems.FILTER.get());
                 output.accept(ModItems.BUTTER.get());
+                output.accept(ModItems.CHEESE.get());
+                output.accept(ModItems.CHOCOLATE.get());
+                output.accept(ModItems.GELATIN.get());
+                output.accept(ModItems.BEATEN_EGGS.get());
+                output.accept(ModItems.BROTH.get());
+                output.accept(ModItems.COOKIE.get());
                 output.accept(ModItems.BREAD_SLICE.get());
                 output.accept(ModItems.TOAST.get());
                 output.accept(ModItems.BUTTERED_BREAD.get());

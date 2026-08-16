@@ -1,0 +1,15 @@
+{
+  "type": "foodplus:countertop_shaped",
+  "pattern": [
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "foodplus:cookie",
+    "count": 8
+  }
+}

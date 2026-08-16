@@ -1,0 +1,12 @@
+{
+  "type": "foodplus:countertop_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "foodplus:gelatin",
+    "count": 3
+  }
+}

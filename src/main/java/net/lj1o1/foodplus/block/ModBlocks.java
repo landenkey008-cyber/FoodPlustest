@@ -3,6 +3,7 @@ package net.lj1o1.foodplus.block;
 import net.lj1o1.foodplus.FoodPlus;
 import net.lj1o1.foodplus.block.custom.CountertopBlock;
 import net.lj1o1.foodplus.block.custom.CountertopPanel;
+import net.lj1o1.foodplus.block.custom.SaltBlock;
 import net.lj1o1.foodplus.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
@@ -34,7 +35,7 @@ public class ModBlocks {
             .strength(3.5f).sound(SoundType.BASALT).destroyTime(1f).requiresCorrectToolForDrops()));
 
     //Other Blocks
-    public static final DeferredBlock<Block> SALT_BLOCK = registerBlock("salt_block", () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f)));
+    public static final DeferredBlock<Block> SALT_BLOCK = registerBlock("salt_block", () -> new SaltBlock(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f)));
 
 
     private static <T extends net.minecraft.world.level.block.Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

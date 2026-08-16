@@ -48,7 +48,7 @@ public static final int RESULT_SLOT = 0;
         this.resultSlots = new ResultContainer();
         this.access = access;
         this.player = playerInventory.player;
-        this.addSlot(new ResultSlot(playerInventory.player, this.craftSlots, this.resultSlots, 0, 124, 35));
+        this.addSlot(new CountertopResultSlot(playerInventory.player, this.craftSlots, this.resultSlots, 0, 124, 35));
 
         for(int i = 0; i < 3; ++i) {
             for(int j = 0; j < 3; ++j) {
@@ -150,7 +150,7 @@ public static final int RESULT_SLOT = 0;
 
     public void removed(Player player) {
         super.removed(player);
-        this.access.execute((p_39371_, p_39372_) -> this.clearContainer(player, this.craftSlots));
+        this.access.execute((level, pos) -> this.clearContainer(player, this.craftSlots));
     }
 
     public boolean stillValid(Player player) {
@@ -164,7 +164,9 @@ public static final int RESULT_SLOT = 0;
             ItemStack itemstack1 = slot.getItem();
             itemstack = itemstack1.copy();
             if (index == 0) {
-                this.access.execute((p_39378_, p_39379_) -> itemstack1.getItem().onCraftedBy(itemstack1, p_39378_, player));
+                this.access.execute((level, pos) ->
+                        itemstack1.getItem().onCraftedBy(itemstack1, level, player));
+
                 if (!this.moveItemStackTo(itemstack1, 10, 46, true)) {
                     return ItemStack.EMPTY;
                 }
